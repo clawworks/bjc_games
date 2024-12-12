@@ -19,6 +19,7 @@ class BjcGamesApp extends StatelessWidget {
     return MaterialApp(
       title: 'BJC Games',
       theme: ThemeData(
+        fontFamily: 'Grandstander',
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueGrey),
         useMaterial3: true,
       ),
