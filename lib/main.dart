@@ -23,7 +23,7 @@ class BjcGamesApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueGrey),
         useMaterial3: true,
       ),
-      home: const HomePage(title: 'BJC Games'),
+      home: const HomePage(title: 'B.J.C. Games'),
     );
   }
 }
