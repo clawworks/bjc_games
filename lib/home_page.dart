@@ -99,6 +99,12 @@ class HomePage extends StatelessWidget {
                                   OutlinedButton(
                                     onPressed: () async {
                                       // TODO Navigate to 2048 Game
+                                      Navigator.of(context)
+                                          .push(MaterialPageRoute(
+                                        builder: (context) {
+                                          return GameHomePage(title: '2048');
+                                        },
+                                      ));
                                     },
                                     child: Padding(
                                       padding: const EdgeInsets.symmetric(

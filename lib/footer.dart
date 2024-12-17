@@ -21,11 +21,11 @@ class Footer extends StatelessWidget {
                 children: [
                   _FooterText('B.J.C. News'),
                   Divider(height: 24.0),
-                  Wrap(
-                    alignment: WrapAlignment.spaceBetween,
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       _FooterText(
-                          '© Copyright 2024 B.J.C. News.  All Rights Reserved'),
+                          '© Copyright 2024 B.J.C. News.  All Rights Reserved.'),
                       Row(
                         children: [
                           _FooterText('Terms of Service'),
