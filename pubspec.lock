@@ -661,6 +661,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.1"
+  twenty_forty_eight:
+    dependency: "direct main"
+    description:
+      path: "../packages/twenty_forty_eight"
+      relative: true
+    source: path
+    version: "0.0.1"
   typed_data:
     dependency: transitive
     description:

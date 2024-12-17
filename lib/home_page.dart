@@ -1,5 +1,6 @@
 import 'package:bjc_games/footer.dart';
 import 'package:flutter/material.dart';
+import 'package:twenty_forty_eight/game_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key, required this.title});
@@ -55,6 +56,11 @@ class HomePage extends StatelessWidget {
                         child: InkWell(
                           onTap: () async {
                             // TODO Navigate to 2048 Game
+                            Navigator.of(context).push(MaterialPageRoute(
+                              builder: (context) {
+                                return GameHomePage(title: '2048');
+                              },
+                            ));
                           },
                           child: Column(
                             mainAxisSize: MainAxisSize.min,
