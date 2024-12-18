@@ -13,8 +13,11 @@ class Footer extends StatelessWidget {
             minWidth: 300,
             maxWidth: 1000,
           ),
-          child: Padding(
-            padding: const EdgeInsets.symmetric(vertical: 16.0),
+          child: const Padding(
+            padding: EdgeInsets.symmetric(
+              vertical: 16.0,
+              horizontal: 16.0,
+            ),
             child: Center(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -24,13 +27,14 @@ class Footer extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      _FooterText(
-                          '© Copyright 2024 B.J.C. News.  All Rights Reserved.'),
+                      _FooterText('© Copyright 2024 B.J.C. News  '),
+                      // '© Copyright 2024 B.J.C. News.  All Rights Reserved.'),
                       Row(
                         children: [
-                          _FooterText('Terms of Service'),
-                          const SizedBox(width: 24.0),
-                          _FooterText('Privacy Policy'),
+                          _FooterText('All Rights Reserved'),
+                          // _FooterText('Terms of Service'),
+                          // const SizedBox(width: 24.0),
+                          // _FooterText('Privacy Policy'),
                         ],
                       ),
                     ],
